@@ -5,7 +5,7 @@ with Ada.Strings.Wide_Wide_Fixed;
 
 with HTB3_Umwandlungsvariablen;
 
-package body HTB3_Umwandlungssystem is
+package body UmwandlungssystemBibiliothek3 is
    
    function Zahlenstring
      (ZahlExtern : in GanzeZahl)
@@ -161,4 +161,4 @@ package body HTB3_Umwandlungssystem is
       
    end EncodeUnbounded;
 
-end HTB3_Umwandlungssystem;
+end UmwandlungssystemBibiliothek3;
